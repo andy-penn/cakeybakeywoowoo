@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Cakey Bakey Woo Woo</title>
+    <!-- fonts –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600|Lobster|Berkshire+Swash" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/basic.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <div class="Logob" id="logo" style="display:none;"></div>
+  <section id="page-top"></section>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a class="page-scroll" href="index.php">Home</a></li>
+            <li><a class="page-scroll" href="#about">About Us</a></li>
+            <li><a class="page-scroll" href="#findabaker">Find a Baker</a></li>
+            <li><a class="page-scroll" href="jobsearch.php">Find a Job</a></li>
+            <li><a  class="page-scroll" href="#contact">Contact Us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<div style="background-color:#511807; width:100%; height:50px; margin:50px 0 50px 0; position:fixed; z-index:21;">
+
+</div>
+
+<div class="Logoa"></div>
+<div class="container">
+	<div class="outershell">
+        	<!--Post a Job Form-->
+            <div class="top_ad_1">
+            	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- top ad 1 post job -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:728px;height:90px"
+                     data-ad-client="ca-pub-8712788469684599"
+                     data-ad-slot="5452824679"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <div class="top_ad_2">
+            	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- top ad 2 post job -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:320px;height:100px"
+                     data-ad-client="ca-pub-8712788469684599"
+                     data-ad-slot="6929557875"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+                       
+            <div class="rightbox">
+            <div class="panel panel-default">
+          		<div class="panel-heading">
+            	<h3 class="panel-title">Post a Job</h3>
+          		</div>
+          		<div class="panel-body">
+                <h2>Need a baker or caterer for your special occasion?</h2>
+            	<p>Describe your requirements using the form below and we will get you quotes from local, rated bakers absolutely FREE!</p>
+                <div class="clear"></div><!--clear floats--> 
+                	<form action="handle_jobpost.php" method="post" onsubmit="return confirm(\'Are you sure you want to Submit this job?\')"> 
+                    <label for="type">Select a Job Type: <b style="color:orange;">*</b></label>
+                    <select name="type">
+                        <option value="none">Please select a job Type</option>
+                        <option value="weddingcake">Wedding Cake</option>
+                        <option value="birthdaycake">Birthday Cake</option>
+                        <option value="eventcake">Special Event Cake</option>
+                        <option value="seasonalcake">Seasonal Cake</option>
+                        <option value="bereavementcake">Bereavement Cake</option>
+                        <option value="cookies">Cookies</option>
+                        <option value="muffins">Muffins</option>
+                        <option value="cupcakes">Cup Cakes</option>
+                        <option value="savory">Savory Goods</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="infobox">Welcome to Cakey Bakey Woowoo! Please fill out the form with as much details as possible to help people to quote as accurately as possible.</div>
+                    <div class="clear"></div><!--clear floats-->               
+                    <hr>
+                    
+                    <label for="jobtitle">Name your Job: <b style="color:orange;">*</b></label>
+                    <input type="text" name="jobtitle" placeholder="Job Title" />
+                    <div class="infobox">For example: <br><br>50's style Birthday Cake<br>Three tier wedding cake<br>Buffet for 30 people</div>
+                    <div class="clear"></div><!--clear floats--> 
+                    <hr>
+                    <label for="info">Describe your requirements: <b style="color:orange;">*</b></label>
+                    <textarea name="info" style="resize:none" rows="4" cols="50" placeholder="Job Description"></textarea>
+                    <div class="infobox">The more detail you enter the more interest you will generate for you job. <br><br>For a best response, consider including:<br><br>
+                    <ul>
+                        <li>Approximate sizes</li>
+                        <li>Services needed: a one of job, ongoing service, business catering</li>
+                        <li>Number of tiers</li>
+                        <li>preferred ingredients</li>
+                        <li>dietary needs</li>
+                        <li>Any allergens</li>
+                        </ul>
+                    </ul> 
+                    </div>
+                    <div class="clear"></div><!--clear floats--> 
+                    <hr>
+                    <label for="end">When do you need it for?: <b style="color:orange;">*</b></label>
+                    <input type="text" name="end" id="datepicker" placeholder="Due Date" />
+                    <div class="infobox">Please give bakers an idea of when you'd like to get the work done.</div>
+                    <div class="clear"></div><!--clear floats-->  
+                    <hr>
+                    <label for="postcode">Enter your postcode: <b style="color:orange;">*</b></label>
+                    <input type="text" name="postcode" placeholder="Postcode (uk)" />
+                    <div class="infobox">Full area code/postcode of the location where you need a baker. This will be used to get local bakers.</div>
+                    <div class="clear"></div><!--clear floats-->
+                    <hr>
+                    <input type="submit" value="Next" />
+                    <!-- on mybuilder.com after filling the job and posting it gives you 5 spaces to invite people from the site to view the job.-->
+                </form>
+                <div class="clear"></div><!--clear floats--> 
+            </div>
+            </div></div><!--close box border-->
+            
+            <div class="leftbox">
+            	<div class="side_reg">
+                	<p>Register with Cakey Bakey!</p>
+                    <p class="norm_text">Gain access to a world of top quality, rated bakers</p>
+                    <a class="fake_button" href="#">Click Here!</a>
+                </div>
+            	<div class="sidead1">
+                	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- side ad 1 post job -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:300px;height:250px"
+                         data-ad-client="ca-pub-8712788469684599"
+                         data-ad-slot="2499358271"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="side_reg">
+                	<p>Register with Cakey Bakey!</p>
+                    <p class="norm_text">Gain access to a world of top quality, rated bakers</p>
+                    <a class="fake_button" href="#">Click Here!</a>
+                </div>
+                <div class="side_reg">
+                	<p>Register with Cakey Bakey!</p>
+                    <p class="norm_text">Gain access to a world of top quality, rated bakers</p>
+                    <a class="fake_button" href="#">Click Here!</a>
+                </div>
+                <div class="sidead1 sidead2">
+                	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- side ad 2 post job -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:300px;height:250px"
+                         data-ad-client="ca-pub-8712788469684599"
+                         data-ad-slot="3498413478"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div>
+            <div class="clear"></div><!--clear floats-->
+    </div><!--outershell-->
+</div> <!-- /container -->
+
+  <!-- FOOTER -->
+<div class="myfooter">
+  <div class="footlogo"><img src="images/cbww-logo-footer.png" /></div>
+  
+    <div class="socialmedia"> 
+     <ul>
+        <li id="twitter" class="1column" style="float:none;"><a href="#">Twitter</a></li>
+        <li id="facebook" class="1column" style="float:none;"><a href="#">Facebook</a></li>
+        <li id="pinterest" class="1column" style="float:none;"><a href="#">Pinterest</a></li>
+        <li id="google" class="1column" style="float:none;"><a href="#">Google</a></li>
+        <li id="youtube" class="1column" style="float:none;"><a href="#">YouTube</a></li>
+        <li id="linkedin" class="1column" style="float:none;"><a href="#">LinkedIn</a></li>
+     </ul>                    
+    </div>
+  
+  
+    <div class="minimenu">
+        <ul>
+        <li class="1column" style="float:none;"><a href="#">Home</a></li>
+        <li class="1column" style="float:none;"><a href="#">About Us</a></li>
+        <li class="1column" style="float:none;"><a href="#">Find a Baker</a></li>
+        <li class="1column" style="float:none;"><a href="#">Find a Job</a></li>
+        <li class="1column" style="float:none;"><a href="#">Contact Us</a></li>	
+        </ul>
+    </div>
+  
+ <p class="copytext"><span>© Copyright 2015  |  Company number: 00000000  |  VAT number: 000000000</span></p>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script>
+      $(function() {
+          $("#datepicker").datepicker({ dateFormat: "yy-mm-dd" }).val();
+      });
+    <!-- date was dd-mm-yy.-->
+	</script>
+  </body>
+</html>

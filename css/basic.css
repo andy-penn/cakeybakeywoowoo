@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../images/cbww-bg-dots.png);
+	background-repeat: repeat;
+	background-color: #E9FFFF;
+	height:100%;
+	min-width: 100%;
+	padding:0px;	
+}
+
+html {
+	min-width: 100%;
+	padding:0px;
+}
+
+.loginlogo {
+	margin:50px auto 50px auto;
+	width:144px;
+	height:158px;	
+}

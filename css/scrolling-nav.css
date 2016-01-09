@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-custom {
+	text-shadow: 1px 1px #666;
+	font: 20px/1 Lobster,Arial,sans-serif;
+}
+
+.navbar .nav > li > a {
+	color:white;
+	margin: 0 20px 0 20px;	
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/*login buttons*/
+a.navbutt, button.navbutt, input.navbutt{
+	display: inline-block;
+	height: 38px;
+	font-size: 1.8rem;
+	font-family: "Lobster",cursive Helvetica,Arial,sans-serif;
+	padding: 0px 30px;
+	color: #663D18;
+	text-align: center;
+	line-height: 38px;
+	text-transform: capitalize;
+	text-decoration: none;
+	white-space: nowrap;
+	border-radius: 4px;
+	border: 1px solid #E6C9A6;
+	cursor: pointer;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: 0px none;	
+}
+
+.login {
+	float:right;
+	margin:6px 60px 0 0;
+	color: #663D18;
+	background-color: #EFEBC0;	
+}
+
+button.gotone{
+	float:right;
+	margin:6px 10px 0 0;
+	color: #663D18;
+	background-color: #EFEBC0;
+}
+
+
+.register, input.register{
+  float:right;
+  margin:6px 10px 0 0;
+  border-color: #41917D;
+  color: #FFF;
+  background-color: #6EC3AE;	
+}
+
+.signup {
+	color:white;
+	background-color: #6EC3AE;
+	border-color: #41917D;	
+}
+
+
+@media only screen and (min-width:767px) {
+	
+.navbar .nav > li > a {
+	margin: 0 10px 0 10px;	
+}
+    .navbar {
+        padding: 0px 0;
+        /*-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;*/
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }	
+}
+
+@media only screen and (max-width:767px) {
+    .register {
+		margin:6px 0 0 10px;
+		width:30%;
+		float:left;	
+	}
+	
+	.login {
+		margin:6px 10px 0 0;
+		width:30%;
+	}	
+	
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
